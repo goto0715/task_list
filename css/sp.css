@@ -1,0 +1,113 @@
+@charset "utef-8";
+
+body{
+    font-size: 3.5vw;
+}
+
+/*ヘッダーレイアウト*/
+
+header {
+    width: auto;
+    height: 100px;
+    margin: 0.5%;
+}
+
+.title {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.global-nav {
+    float: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.global-nav ul {
+    padding: 0;
+}
+
+.global-nav li {
+    border: none;
+    display: inline;
+    float: none;
+    margin: 0 8px;
+    padding: 0;
+    font-size: 10px;
+}
+
+/*ヘッダーレイアウトここまで*/
+
+/*入力フォームデザイン*/
+
+.form-box input {
+    width: 240px;
+    height: 20px;
+}
+
+.form-box textarea {
+    width: 240px;
+    height: 100px;
+}
+
+/*入力フォームデザインここまで*/
+
+
+/*業務一覧*/
+
+.tasklist {
+    width:400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse : collapse;
+    
+}
+
+th {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #696969;
+    width:400px;
+    padding:20px 0;
+    text-align: left;
+    border-bottom: solid 1px #696969;
+}
+
+td {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #696969;
+    width:400px;
+    padding:20px 20px 20px 0;
+    border-bottom: solid 1px #696969;
+}
+
+.detail {
+    font-size: 3vw;
+}
+
+strong {
+    border-bottom: solid 3px #afeeee;
+}
+
+.list-btn {
+    font-size: 10px;
+    width: 75px;
+}
+
+/*エラー表示*/
+
+.msg {
+    width:auto;
+}
+
+.msg a{
+    margin-left: 0;
+}
+
+.err-box {
+    width: auto;
+}

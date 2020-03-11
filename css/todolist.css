@@ -1,0 +1,289 @@
+@charset "utef-8";
+
+/*レイアウトのリセット*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+p,h1,h2,h3,h4,h5,h6,span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #696969;
+}
+
+/*レイアウトのリセットここまで*/
+
+/*リンクテキストデザイン*/
+a {
+    text-decoration: none;
+    color: #4682b4;
+}
+
+/*ヘッダーテキストデザイン*/
+
+.title {
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    line-height: 0.9;
+    float: left;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.icon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #afeeee;
+}
+
+
+/*ヘッダーテキストデザインここまで*/
+
+/*ヘッダーレイアウト*/
+
+header {
+    background-color: #b0c4de;
+    margin: 0 auto;
+    padding: 20px;
+    width: 940px;
+    height: 100px;
+}
+
+.search-header {
+    background-color: #f5f5f5;
+}
+
+.global-nav {
+    float: right;
+    margin-top: 0;
+}
+
+.global-nav li {
+    border-right:solid 1px #ffffff;
+    height: 3px;
+    float: left;
+    padding: 0 10px 20px;
+    margin: 0;
+    font-size: 16px;
+    list-style: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.search-nav li {
+    border-right:solid 1px #696969;
+}
+
+.global-nav li:last-child {
+    border: none;
+}
+
+.global-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.search-nav li a {
+    color: #696969;
+}
+
+.global-nav ul {
+    margin-top: 0;
+}
+
+.global-nav li a:hover {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.search-nav li a:hover {
+    border-bottom: 2px solid #696969;;
+}
+
+/*ヘッダーレイアウトここまで*/
+
+/*業務内容入力画面レイアウト*/
+
+
+.in {
+    width:940px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.search {
+    width:940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+
+/*業務名入力画面*/
+
+.form-box input {
+    width: 700px;
+    height: 20px;
+}
+
+/*業務内容入力画面*/
+.form-box textarea {
+    width: 700px;
+    height: 50px;
+}
+
+/*文字カウント*/
+#inputlength1, #inputlength2{
+    /*float:right;*/
+    /*clear: both;*/
+    /*margin-right: 234px;*/
+    font-size: 10px;
+}
+/*業務内容入力画面*/
+
+/*ボタンデザイン*/
+.btn {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 120px;
+    text-align:  center;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+}
+
+/*レスポンシブデザインの為に一時コメントアウト
+.hover .btn:hover {
+    background-color: #ffffff;
+    color: #009cd3;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 120px;
+    text-align:  center;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+}
+*/
+
+.search-btn {
+    margin-top: 10px;
+}
+
+/*ボタンデザインここまで*/
+
+
+/*メッセージボックス*/
+
+.msg {
+    width:940px;
+    margin: 0 auto ;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.msg-box {
+    width: 680px;
+    padding: 10px;
+    border: solid 1px #afeeee;
+}
+
+.msg-box li {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    color: #696969;
+}
+
+.err-box {
+    width: 680px;
+    padding: 10px;
+    border: solid 1px #afeeee;
+    margin: 10px auto;
+}
+
+.err-box li {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    color: #dc143c;
+    padding: 5px;
+}
+
+.msg a {
+    margin-left: 712px;
+}
+
+msg a:hover {
+    border-bottom: 2px solid #4682b4;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+/*メッセージボックスここまで*/
+
+
+/*業務一覧*/
+.tasklist {
+    width:940px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse : collapse;
+    
+}
+
+th {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #696969;
+    width:960px;
+    padding:20px 0;
+    text-align: left;
+    border-bottom: solid 1px #696969;
+}
+
+td {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #696969;
+    width:960px;
+    padding:20px 20px 20px 0;
+    border-bottom: solid 1px #696969;
+}
+
+.detail {
+    font-size: 12px;
+}
+
+strong {
+    border-bottom: solid 3px #afeeee;
+}
+/*業務一覧ここまで*/
+
+
+/*フッター*/
+footer { 
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    background-color: #767671;
+}
+
+.search-footer {
+    background-color: #f5f5f5;
+    color: #696969;
+}
+
+/*フッターここまで*/
+
+footer small {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
